@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marlon Montesino - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Hi, I’m <span>Marlon Montesino</span></h1>
+            <h2>Aspiring Front-End Developer</h2>
+            <p>I build modern, responsive, and user-friendly websites while transitioning into tech with a strong
+                background in customer experience.</p>
+            <a href="#contact" class="btn">Hire Me</a>
+            <a href="#projects" class="btn secondary">View Projects</a>
+        </div>
+    </section>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <h1>Marlon Montesino</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="images/me.jpg" alt="My Photo" class="profile-pic">
+        <p>Hi, I’m Marlon! After 7+ years in customer service and support, I’ve transitioned my problem-solving and
+            communication skills into front-end development. I enjoy turning ideas into responsive, accessible, and
+            visually appealing websites. My goal is to keep learning, building, and contributing to projects that make
+            technology simple and enjoyable for users.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="https://placehold.co/400" alt="Portfolio Website">
+                <h3>Portfolio Website</h3>
+                <p>This website showcases my projects and skills using HTML, CSS, and JavaScript. Fully responsive and
+                    mobile-friendly.</p>
+                <a href="#" class="btn secondary">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <img src="images/todo-screenshot.png" alt="To-Do List App">
+                <h3>To-Do List App</h3>
+                <p>A simple, interactive task manager built with HTML, CSS, and JavaScript to practice DOM manipulation
+                    and event handling.</p>
+                <a href="todo.html" class="btn secondary">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="images/weather-screenshot.png" alt="Weather App">
+                <h3>Weather App</h3>
+                <p>Interactive weather app built with HTML, CSS, and JavaScript. Fetches real-time data from
+                    OpenWeatherMap API.</p>
+                <a href="weather.html" class="btn secondary">View Project</a>
+            </div>
+            
+
+            <!-- Add more projects the same way -->
+        </div>
+    </section>F
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Marlon Montesino</p>
+    </footer>
+    <script>
+        // Highlight active section in nav while scrolling
+        const sections = document.querySelectorAll("section");
+        const navLinks = document.querySelectorAll("nav ul li a");
+
+        window.addEventListener("scroll", () => {
+            let current = "";
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 80;
+                if (pageYOffset >= sectionTop) {
+                    current = section.getAttribute("id");
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove("active");
+                if (link.getAttribute("href") === "#" + current) {
+                    link.classList.add("active");
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
