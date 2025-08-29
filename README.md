@@ -44,18 +44,20 @@ This portfolio website showcases my projects, bio, and contact info. Built with 
 git clone https://github.com/montesinodev/my-portfolio.git
 
 ```
-Navigate into the folder:
+2. Navigate into the folder:
 
 ```bash
 cd my-portfolio
 ```
 
-Open index.html in your browser.
+3. Open index.html in your browser.
 
-Click on project links to explore live demos locally.
+4. Click on project links to explore live demos locally.
 
-📞 Contact
+📞 Contact:
+
 Feel free to reach out to me via email: montesinodev@gmail.com
+
 You can also connect with me on LinkedIn: https://www.linkedin.com/in/marlon-m-324a70147/
 
 Thank you for visiting my portfolio!
