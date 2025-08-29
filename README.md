@@ -45,7 +45,6 @@ git clone https://github.com/montesinodev/my-portfolio.git
 Navigate into the folder:
 
 bash
-Copiar código
 cd my-portfolio
 Open index.html in your browser.
 
