@@ -42,10 +42,14 @@ This portfolio website showcases my projects, bio, and contact info. Built with 
 1. Clone the repo:  
 ```bash
 git clone https://github.com/montesinodev/my-portfolio.git
+
+```
 Navigate into the folder:
 
-bash
+```bash
 cd my-portfolio
+```
+
 Open index.html in your browser.
 
 Click on project links to explore live demos locally.
