@@ -17,21 +17,21 @@ Hi! I’m Marlon, a passionate front-end developer focused on creating clean, us
 ## 🛠 Projects
 
 ### 1. To-Do List App
-![To-Do App Screenshot](images/todo-screenshot.png)  
+![To-Do App Screenshot](https://opengraph.githubassets.com/1/montesinodev/my-portfolio/todo.html)  
 A simple and interactive task manager built with HTML, CSS, and JavaScript. Users can add and delete tasks.  
 [View Live Demo](todo.html) | [View Code](https://github.com/montesinodev/my-portfolio/tree/main/todo.html)
 
 ---
 
 ### 2. Weather App
-![Weather App Screenshot](images/weather-screenshot.png)  
+![Weather App Screenshot](https://opengraph.githubassets.com/1/montesinodev/my-portfolio/weather.html)  
 An interactive weather application fetching real-time data from the OpenWeatherMap API. Displays temperature, weather description, humidity, and wind speed.  
 [View Live Demo](weather.html) | [View Code](https://github.com/montesinodev/my-portfolio/tree/main/weather.html)
 
 ---
 
 ### 3. Portfolio Website
-![Portfolio Screenshot](images/portfolio-screenshot.png)  
+![Portfolio Screenshot](https://opengraph.githubassets.com/1/montesinodev/my-portfolio/)  
 This portfolio website showcases my projects, bio, and contact info. Built with HTML, CSS, and JavaScript with responsive design.  
 [View Live Demo](index.html) | [View Code](https://github.com/montesinodev/my-portfolio)
 
