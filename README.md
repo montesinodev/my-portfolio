@@ -31,7 +31,7 @@ An interactive weather application fetching real-time data from the OpenWeatherM
 ---
 
 ### 3. Portfolio Website
-![Portfolio Screenshot](https://opengraph.githubassets.com/1/montesinodev/my-portfolio/)  
+![Portfolio Screenshot](https://opengraph.githubassets.com/1/montesinodev/my-portfolio)  
 This portfolio website showcases my projects, bio, and contact info. Built with HTML, CSS, and JavaScript with responsive design.  
 [View Live Demo](index.html) | [View Code](https://github.com/montesinodev/my-portfolio)
 
