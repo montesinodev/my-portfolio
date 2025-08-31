@@ -39,9 +39,7 @@ body {
 }
 
 /* Main content expands to push footer down */
-main {
-  flex: 1;
-}
+
 
 /* Navigation */
 nav {
@@ -223,6 +221,8 @@ footer {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.5rem;
+  columns: 3;
+  max-width: 1200px;
 }
 
 /* Flex container for projects */
