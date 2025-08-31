@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 150px; /* adjust to your header height */
 }
 
 /* Reset */
@@ -90,9 +91,11 @@ h2 {
 
 /* Contact Form */
 form {
+  max-width: 500px;
+  margin: auto;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
 input, textarea, button {
@@ -101,59 +104,80 @@ input, textarea, button {
   border-radius: 5px;
 }
 
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
 button {
-  background: #2563eb;
-  color: #fff;
-  font-weight: 600;
+  background: #007bff;
+  color: white;
+  padding: 12px;
   border: none;
-  padding: 0.8rem;
-  border-radius: 8px;
-  transition: background 0.3s;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
 }
 
 button:hover {
-  background: #1d4ed8;
+  background: #0056b3;
+}
+
+#form-message {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+#form-message.success {
+  color: green;
+}
+
+#form-message.error {
+  color: red;
+}
+
+.hidden {
+  display: none;
 }
 
 /* Footer */
 /* Footer styles (sticky at bottom) */
 footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
   background: #4a90e2;
-  width: 100%;
+  display: sticky;
   color: white;
   padding: 1rem 2rem;
+  bottom: 0;
   z-index: 100;
 }
 
 .footer-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+  align-items: center; /* centers content vertically */
+  margin: 0 auto;
 }
 
-.footer-left p {
-  margin: 0;
+.footer-left {
+  font-size: 0.9rem;
+}
+
+.footer-right {
+  display: flex;
+  gap: 1rem; /* space between icons */
 }
 
 .footer-right a {
   color: white;
   font-size: 1.5rem;
-  margin-left: 1rem;
   transition: transform 0.3s ease, color 0.3s ease;
-}
-
-footer a {
-  color: white;
-  text-decoration: none;
-  margin: 0 0.5rem;
-}
-
-footer a:hover {
-  text-decoration: underline;
 }
 
 .footer-right a:hover {
@@ -161,9 +185,6 @@ footer a:hover {
   transform: scale(1.2);
 }
 
-footer i {
-  margin-right: 0.5rem;
-}
 
 .profile-pic {
   width: 150px;
